@@ -2,10 +2,9 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
-// Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
-import { cn } from "../../utils/cn";
+import { cn } from "@/utils/cn";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
@@ -67,10 +66,9 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "emmaebubeegbosi@gmail.com";
+    const text = "hsu@jsmastery.pro";
     navigator.clipboard.writeText(text);
-
-    setCopied(!copied);
+    setCopied(true);
   };
 
   return (
