@@ -1,7 +1,7 @@
 import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaGlobe, FaGithub } from "react-icons/fa6";
 
 const RecentProjects = () => {
   return (
@@ -11,20 +11,24 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 sm:gap-y-8 mt-10">
-        {projects.map(({ id, title, des, img, iconLists, link }) => (
+        {projects.map(({ id, title, des, img, iconLists, link, github }) => (
           <div
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={id}
           >
             <PinContainer title={link} href={link}>
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-[600px] lg:w-[570px] w-[80vw] overflow-hidden md:h-[35vh] lg:h-[37vh] h-[28vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>
-                <img src={img} alt="cover" className="z-10 absolute bottom-0" />
+                <img
+                  src={img}
+                  alt="cover"
+                  className="z-10 absolute bottom-0 w-full h-full"
+                />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -56,11 +60,27 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                <div className="flex gap-4">
+                  <a
+                    href={link}
+                    target="_blank"
+                    className="flex justify-center items-center gap-1"
+                  >
+                    <FaGlobe className="ms-3" size={20} color="#fff" />
+                    <p className="lg:text-xl md:text-xs text-sm text-purple md:flex hidden">
+                      Live
+                    </p>
+                  </a>
+                  <a
+                    href={github}
+                    target="_blank"
+                    className="flex justify-center items-center gap-1"
+                  >
+                    <FaGithub className="ms-3" size={20} color="#fff" />
+                    <p className="lg:text-xl md:text-xs text-sm text-purple md:flex hidden">
+                      Github
+                    </p>
+                  </a>
                 </div>
               </div>
             </PinContainer>
