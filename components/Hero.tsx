@@ -1,8 +1,8 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
+import Button from "./ui/Button";
 
 const Hero = () => {
   return (
@@ -44,7 +44,7 @@ const Hero = () => {
           </p>
 
           <a href="/doc/resume.pdf" target="_blank">
-            <MagicButton title="View Resume" icon={<FaLocationArrow />} position="right" />
+            <Button title="View Resume" icon={<FaLocationArrow />} position="right" />
           </a>
         </div>
       </div>
