@@ -43,8 +43,8 @@ const Hero = () => {
             Hi, I&apos;m Ebube, A FrontEnd Developer.
           </p>
 
-          <a href="#about">
-            <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
+          <a href="/doc/resume.pdf" target="_blank">
+            <MagicButton title="View Resume" icon={<FaLocationArrow />} position="right" />
           </a>
         </div>
       </div>
