@@ -17,7 +17,7 @@ const RecentProjects = () => {
             key={id}
           >
             <PinContainer title={link} href={link}>
-              <div className="relative flex items-center justify-center sm:w-[600px] lg:w-[570px] w-[80vw] overflow-hidden md:h-[34vh] lg:h-[39vh] h-[24vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-[600px] lg:w-[570px] w-[80vw] overflow-hidden md:h-[34vh] lg:h-[39vh] h-[26vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
