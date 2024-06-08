@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Ebube's Portfolio",
   description:
     "Frontend Developer specializing in creating responsive, user-friendly web applications",
+    icons: {
+      icon: '/icon.jpg',
+    },
 };
 
 export default function RootLayout({
