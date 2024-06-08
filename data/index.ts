@@ -136,7 +136,8 @@ export const projects = [
     des: "A landing page for a Crypto Investment Platform Application built with React and AOS animation.",
     img: "/project_6.png",
     iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://github.com/immanuellking/Crypto-website-landing-page",
+    link: "https://crappo-crypto12.netlify.app/",
+    github: "https://github.com/immanuellking/Crypto-website-landing-page",
   },
 ];
 
