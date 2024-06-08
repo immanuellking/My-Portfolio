@@ -1,5 +1,5 @@
 import React from "react";
-import MagicButton from "./ui/MagicButton";
+import Button from "./ui/Button";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 
@@ -16,7 +16,7 @@ const Footer = () => {
           achieve your goals.
         </p>
         <a href="mailto:emmaebubeegbosi@gmail.com">
-          <MagicButton
+          <Button
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
