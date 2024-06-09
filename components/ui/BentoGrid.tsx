@@ -64,7 +64,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "emmaebubeegbosi@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -76,7 +76,6 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        //   you can generate the color from here https://cssgradient.io/
         background: "rgb(4,7,29)",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
