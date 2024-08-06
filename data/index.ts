@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 8,
     title: "Skims Remake",
-    des: "Skims Commerce platform built with Next.js, Typescript, Sanity CMS, tailwind and Clerk for authentication, with alos Filter and Sort functionalities.",
+    des: "Skims Commerce platform built with Next.js, Typescript, Sanity CMS, tailwind and Clerk for authentication, with also Filter and Sort functionalities.",
     img: "/project_8.png",
     iconLists: [
       "/next.svg",
