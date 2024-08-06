@@ -71,6 +71,23 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 8,
+    title: "Skims Remake",
+    des: "Skims Commerce platform built with Next.js, Typescript, Sanity CMS, tailwind and Clerk for authentication, with alos Filter and Sort functionalities.",
+    img: "/project_8.png",
+    iconLists: [
+      "/next.svg",
+      "re.svg",
+      "/ts.svg",
+      "/c.svg",
+      "/tail.svg",
+      "/redux.svg",
+      "/paystack.svg",
+    ],
+    link: "https://skims-remake.vercel.app/",
+    github: "https://github.com/immanuellking/skims",
+  },
+  {
     id: 1,
     title: "Bube - A Brand Ecommerce Platform",
     des: "A premier E-commerce platform tailored for the modern shopper built with Next.js and Clerk for authentication.",
@@ -102,6 +119,15 @@ export const projects = [
     ],
     link: "https://rently-estate.netlify.app",
     github: "https://github.com/immanuellking/Rently",
+  },
+  {
+    id: 9,
+    title: "Next.js Dashboard",
+    des: "A Dashboard built with Next.js and vercel postgre for back end with streaming features and SSR",
+    img: "/project_9.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://nextjs-dashboard-sigma-ruby-96.vercel.app/",
+    github: "https://github.com/immanuellking/Nextjs-Dashboard",
   },
   {
     id: 3,
